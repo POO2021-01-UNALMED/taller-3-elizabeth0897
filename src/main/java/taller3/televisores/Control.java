@@ -3,10 +3,9 @@ package taller3.televisores;
 public class Control {
 	TV tv;
 	
-	public Control enlazar(TV tv) {
+	public void enlazar(TV tv) {
 		this.tv = tv;
 		tv.control = this;
-		return this;
 	}
 	
 	public void turnOn() {
