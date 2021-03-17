@@ -34,8 +34,8 @@ public class TV {
 	public Marca getMarca() {
 		return marca;
 	}
-	public Control getControl() {
-		return control;
+	public TV getControl() {
+		return control.tv;
 	}
 	public int getPrecio() {
 		return precio;
