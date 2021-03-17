@@ -13,6 +13,7 @@ public class TV {
 	public TV(Marca marca,boolean estado) { //constructor
 		this.marca = marca;
 		this.estado = estado;
+		numTV += 1;
 	}
 	
 	public void setMarca(Marca marca) {
